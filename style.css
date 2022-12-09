@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oxygen+Mono&display=swap');
 
 .dark .dark\:bg-gray-800,
 .bg-gray-50 {
@@ -7,7 +7,7 @@
 }
 
 html {
-  font-family: "Noto Sans Mono", monospace;
+  font-family: 'Oxygen Mono', monospace;
   background: #000;
   color: green;
 }
