@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap");
+
+.dark .dark\:bg-gray-800,
+.bg-gray-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(0，0，0, var(--tw-bg-opacity));
+}
+
+html {
+  font-family: "Noto Sans Mono", monospace;
+  background: #000;
+  color: green;
+}
+
+.text-gray-800 {
+  color: green;
+}
+
+.w-\[30px\].flex.flex-col.relative.items-end,
+.lg\:pl-2,
+.text-gray-800.w-full.md\:max-w-2xl.lg\:max-w-3xl.md\:h-full.md\:flex.md\:flex-col.px-6.dark\:text-gray-100,
+.hidden.md\:fixed.md\:inset-y-0.md\:flex.md\:w-52.md\:flex-col.bg-gray-900,
+.text-xs.text-black\/50.dark\:text-white\/50.pt-2.pb-3.px-3.md\:pt-3.md\:pb-6.md\:px-4.text-center {
+  display: none !important;
+}
+
+.flex.flex-1.flex-col.md\:pl-52.h-full {
+  padding-left: 0;
+  padding-top: 20px;
+}
+
+form {
+  margin-bottom: 12px;
+}
+
+.dark .dark\:text-gray-100,
+.bg-vert-light-gradient,
+.dark .dark\:bg-vert-dark-gradient,
+.dark .dark\:shadow-\[0_0_15px_rgba\(0\2c 0\2c 0\2c 0\.10\)\] {
+  background: transparent;
+}
+
+form .dark .dark\:bg-vert-dark-gradient,
+.dark .dark\:shadow-\[0_0_15px_rgba\(0\2c 0\2c 0\2c 0\.10\)\] {
+  background: #ffffff0d;
+  color: green;
+}
+
+form .bg-white {
+  background: #ffffff1a;
+}
+
+form .text-gray-500 {
+  color: green !important;
+  display: none;
+}
+
+.dark .dark\:border-gray-900\/50 {
+  border-color: transparent;
+}
+
+.btn-neutral {
+  background: transparent !important;
+  border: 0;
+  color: green !important;
+}
+
+.prose,
+.dark .dark\:text-gray-100 {
+  color: green;
+}
+
+.md\:py-6 {
+  padding: 5px 0;
+}
