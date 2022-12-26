@@ -20,13 +20,17 @@ html {
 .lg\:pl-2,
 .text-gray-800.w-full.md\:max-w-2xl.lg\:max-w-3xl.md\:h-full.md\:flex.md\:flex-col.px-6.dark\:text-gray-100,
 .hidden.md\:fixed.md\:inset-y-0.md\:flex.md\:w-52.md\:flex-col.bg-gray-900,
-.text-xs.text-black\/50.dark\:text-white\/50.pt-2.pb-3.px-3.md\:pt-3.md\:pb-6.md\:px-4.text-center {
+.text-xs.text-black\/50.dark\:text-white\/50.pt-2.pb-3.px-3.md\:pt-3.md\:pb-6.md\:px-4.text-center ,.dark.hidden.bg-gray-900{
   display: none !important;
 }
 
 .flex.flex-1.flex-col.md\:pl-52.h-full {
   padding-left: 0;
   padding-top: 20px;
+}
+
+.md\:pl-\[260px\]{
+padding:0
 }
 
 form {
@@ -44,6 +48,10 @@ form .dark .dark\:bg-vert-dark-gradient,
 .dark .dark\:shadow-\[0_0_15px_rgba\(0\2c 0\2c 0\2c 0\.10\)\] {
   background: #ffffff0d;
   color: green;
+}
+
+.dark .dark\:bg-gray-800, .bg-gray-50{
+background:#000
 }
 
 form .bg-white {
